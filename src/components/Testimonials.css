@@ -1,0 +1,40 @@
+.testimonials {
+  background: var(--color-bg-white);
+}
+
+.testimonial-image {
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-content {
+  text-align: left;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border-lighter);
+}
+
+.testimonial-author strong {
+  color: var(--color-text-dark);
+  font-size: 1rem;
+}
+
+.testimonial-result {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+

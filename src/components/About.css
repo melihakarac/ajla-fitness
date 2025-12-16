@@ -1,0 +1,41 @@
+.about {
+  background: var(--color-bg-light);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-text {
+  animation: fadeInLeft 0.8s ease-out;
+}
+
+.about-bio {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.about-image {
+  animation: fadeInRight 0.8s ease-out;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 968px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image {
+    order: -1;
+    padding: 1rem 0;
+  }
+}
+

@@ -1,0 +1,132 @@
+{
+  "header": {
+    "brandName": "Ajla Fitness",
+    "navLinks": {
+      "home": "Home",
+      "about": "About",
+      "programs": "Programs",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    },
+    "ctaButton": "Get Started",
+    "menuToggle": "Toggle menu"
+  },
+  "hero": {
+    "headline": "Transform Your Body,",
+    "headlineHighlight": "Transform Your Life",
+    "text": "Join me on a journey to become the strongest, healthiest version of yourself. Personalized training programs designed for women who are ready to achieve their fitness goals.",
+    "primaryButton": "Start Your Journey",
+    "secondaryButton": "View Programs",
+    "imagePlaceholder": "Hero Image"
+  },
+  "programs": {
+    "title": "My Programs",
+    "subtitle": "Choose the program that fits your lifestyle and goals",
+    "items": [
+      {
+        "icon": "💪",
+        "title": "Personal Training",
+        "description": "One-on-one coaching sessions tailored to your specific goals, fitness level, and schedule. Get personalized attention and expert guidance every step of the way.",
+        "linkText": "Learn More →"
+      },
+      {
+        "icon": "🥗",
+        "title": "Nutrition Coaching",
+        "description": "Learn how to fuel your body properly with customized meal plans and nutrition strategies that complement your fitness journey and lifestyle.",
+        "linkText": "Learn More →"
+      },
+      {
+        "icon": "📱",
+        "title": "Online Workouts",
+        "description": "Access premium workout programs from anywhere. Follow along with video tutorials and track your progress with our online platform.",
+        "linkText": "Learn More →"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "bio": [
+      "Hi, I'm Ajla! A certified fitness coach passionate about helping women achieve their health and wellness goals. With years of experience in personal training and nutrition, I've helped hundreds of women transform their lives through fitness.",
+      "My approach combines strength training, functional movement, and sustainable nutrition habits. I believe fitness should be empowering, enjoyable, and accessible to everyone, regardless of where you're starting."
+    ],
+    "ctaButton": "Read More",
+    "imagePlaceholder": "About Image"
+  },
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Real results from real clients",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "text": "Working with Ajla has been life-changing! I've lost 30 pounds and gained so much confidence. Her programs are challenging but achievable.",
+        "result": "Lost 30 lbs",
+        "imagePlaceholder": "Photo"
+      },
+      {
+        "name": "Emily Martinez",
+        "text": "The nutrition coaching helped me understand how to fuel my body properly. Combined with the workouts, I feel stronger than ever!",
+        "result": "Gained Strength",
+        "imagePlaceholder": "Photo"
+      },
+      {
+        "name": "Jessica Chen",
+        "text": "I love the online workouts! They fit perfectly into my busy schedule. The results speak for themselves - I've never felt better!",
+        "result": "Improved Fitness",
+        "imagePlaceholder": "Photo"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to Start Your Journey?",
+    "motivation": "Take the first step towards a healthier, stronger you. Let's work together to achieve your fitness goals and create lasting change.",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your.email@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your goals..."
+      },
+      "submitButton": "Send Message",
+      "successMessage": "Thank you for your message! I'll get back to you soon."
+    }
+  },
+  "footer": {
+    "brandName": "Ajla Fitness",
+    "tagline": "Empowering women through fitness and wellness.",
+    "sections": {
+      "quickLinks": {
+        "title": "Quick Links",
+        "links": {
+          "home": "Home",
+          "about": "About",
+          "programs": "Programs",
+          "testimonials": "Testimonials",
+          "contact": "Contact"
+        }
+      },
+      "socialMedia": {
+        "title": "Follow Me",
+        "links": [
+          {
+            "name": "Instagram",
+            "icon": "📷",
+            "ariaLabel": "Instagram"
+          },
+          {
+            "name": "TikTok",
+            "icon": "🎵",
+            "ariaLabel": "TikTok"
+          }
+        ]
+      }
+    },
+    "copyright": "Ajla Fitness. All rights reserved."
+  }
+}
+

@@ -1,0 +1,19 @@
+.card {
+  background: var(--color-bg-white);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px var(--shadow-light);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow-dark);
+}
+
+/* Variant for program cards with more lift */
+.card-lift:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px var(--shadow-dark);
+}
+

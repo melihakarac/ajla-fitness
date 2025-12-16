@@ -1,0 +1,132 @@
+{
+  "header": {
+    "brandName": "Ajla Fitness",
+    "navLinks": {
+      "home": "Početna",
+      "about": "O meni",
+      "programs": "Programi",
+      "testimonials": "Iskustva",
+      "contact": "Kontakt"
+    },
+    "ctaButton": "Započni",
+    "menuToggle": "Prebaci meni"
+  },
+  "hero": {
+    "headline": "Transformiši svoje tijelo,",
+    "headlineHighlight": "Transformiši svoj život",
+    "text": "Pridruži mi se na putovanju da postaneš najjača, najzdravija verzija sebe. Personalizovani programi treninga dizajnirani za žene koje su spremne da postignu svoje fitness ciljeve.",
+    "primaryButton": "Započni svoje putovanje",
+    "secondaryButton": "Pogledaj programe",
+    "imagePlaceholder": "Glavna slika"
+  },
+  "programs": {
+    "title": "Moji programi",
+    "subtitle": "Izaberi program koji odgovara tvom životnom stilu i ciljevima",
+    "items": [
+      {
+        "icon": "💪",
+        "title": "Lični trening",
+        "description": "Individualne sesije treniranja prilagođene tvojim specifičnim ciljevima, nivou fitnesa i rasporedu. Dobij personalizovanu pažnju i stručno vođenje na svakom koraku.",
+        "linkText": "Saznaj više →"
+      },
+      {
+        "icon": "🥗",
+        "title": "Nutricionističko savjetovanje",
+        "description": "Nauči kako pravilno hraniti svoje tijelo sa prilagođenim planovima ishrane i strategijama ishrane koje se nadopunjuju sa tvojim fitness putovanjem i životnim stilom.",
+        "linkText": "Saznaj više →"
+      },
+      {
+        "icon": "📱",
+        "title": "Online trening",
+        "description": "Pristupi premium programima treninga sa bilo koje lokacije. Prati video tutorijale i prati svoj napredak sa našom online platformom.",
+        "linkText": "Saznaj više →"
+      }
+    ]
+  },
+  "about": {
+    "title": "O meni",
+    "bio": [
+      "Zdravo, ja sam Ajla! Certifikovani fitness trener strastven oko pomaganja ženama da postignu svoje zdravstvene i wellness ciljeve. Sa godinama iskustva u ličnom treniranju i ishrani, pomogla sam stotinama žena da transformišu svoje živote kroz fitness.",
+      "Moj pristup kombinuje trening snage, funkcionalno kretanje i održive navike ishrane. Vjerujem da fitness treba da bude osnažujući, uživan i dostupan svima, bez obzira odakle počinješ."
+    ],
+    "ctaButton": "Pročitaj više",
+    "imagePlaceholder": "Moja slika"
+  },
+  "testimonials": {
+    "title": "Priče o uspjehu",
+    "subtitle": "Pravi rezultati od pravih klijenata",
+    "items": [
+      {
+        "name": "Sara Jovanović",
+        "text": "Rad sa Ajlom je promijenio moj život! Izgubila sam 13 kilograma i stekla toliko samopouzdanja. Njeni programi su izazovni ali dostižni.",
+        "result": "Izgubljeno 13 kg",
+        "imagePlaceholder": "Fotografija"
+      },
+      {
+        "name": "Emina Marić",
+        "text": "Nutricionističko savjetovanje mi je pomoglo da razumijem kako pravilno hraniti svoje tijelo. U kombinaciji sa treninzima, osjećam se jače nego ikad!",
+        "result": "Stečena snaga",
+        "imagePlaceholder": "Fotografija"
+      },
+      {
+        "name": "Jasmina Čengić",
+        "text": "Volim online treninge! Savršeno se uklapaju u moj zauzet raspored. Rezultati govore sami za sebe - nikad se nisam osjećala bolje!",
+        "result": "Poboljšan fitnes",
+        "imagePlaceholder": "Fotografija"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Spremna si da započneš svoje putovanje?",
+    "motivation": "Napravi prvi korak ka zdravijoj, jačoj verziji sebe. Hajde da radimo zajedno da postignemo tvoje fitness ciljeve i kreiramo trajne promjene.",
+    "form": {
+      "name": {
+        "label": "Ime",
+        "placeholder": "Tvoje ime"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tvoj.email@primjer.com"
+      },
+      "message": {
+        "label": "Poruka",
+        "placeholder": "Reci mi o svojim ciljevima..."
+      },
+      "submitButton": "Pošalji poruku",
+      "successMessage": "Hvala ti na poruci! Javiću ti se uskoro."
+    }
+  },
+  "footer": {
+    "brandName": "Ajla Fitness",
+    "tagline": "Osnaživanje žena kroz fitness i wellness.",
+    "sections": {
+      "quickLinks": {
+        "title": "Brzi linkovi",
+        "links": {
+          "home": "Početna",
+          "about": "O meni",
+          "programs": "Programi",
+          "testimonials": "Iskustva",
+          "contact": "Kontakt"
+        }
+      },
+      "socialMedia": {
+        "title": "Prati me",
+        "links": [
+          {
+            "name": "Instagram",
+            "icon": "📷",
+            "ariaLabel": "Instagram"
+          },
+          {
+            "name": "TikTok",
+            "icon": "🎵",
+            "ariaLabel": "TikTok"
+          }
+        ]
+      }
+    },
+    "copyright": "Ajla Fitness. Sva prava zadržana."
+  }
+}
+

@@ -1,0 +1,50 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #e91e63;
+  --color-primary-dark: #c2185b;
+  --color-primary-rgba-light: rgba(233, 30, 99, 0.3);
+  --color-primary-rgba-medium: rgba(233, 30, 99, 0.4);
+
+  /* Text Colors */
+  --color-text-dark: #2c3e50;
+  --color-text-primary: #333;
+  --color-text-secondary: #555;
+  --color-text-tertiary: #666;
+  --color-text-light: #bdc3c7;
+  --color-text-lighter: #95a5a6;
+
+  /* Background Colors */
+  --color-bg-white: #ffffff;
+  --color-bg-light: #f8f9fa;
+  --color-bg-lighter: #f5f7fa;
+  --color-bg-placeholder: #f0f0f0;
+
+  /* Border & Divider Colors */
+  --color-border-light: #e0e0e0;
+  --color-border-lighter: #eee;
+  --color-border-dark: #34495e;
+
+  /* Footer Colors */
+  --color-footer-bg: #2c3e50;
+  --color-footer-border: #34495e;
+
+  /* Gradient Colors */
+  --color-gradient-hero-start: #c3cfe2;
+  --color-gradient-contact-start: #667eea;
+  --color-gradient-contact-end: #764ba2;
+  
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  --gradient-hero: linear-gradient(135deg, var(--color-bg-lighter) 0%, var(--color-gradient-hero-start) 100%);
+  --gradient-contact: linear-gradient(135deg, var(--color-gradient-contact-start) 0%, var(--color-gradient-contact-end) 100%);
+
+  /* Shadow Colors */
+  --shadow-light: rgba(0, 0, 0, 0.08);
+  --shadow-medium: rgba(0, 0, 0, 0.1);
+  --shadow-dark: rgba(0, 0, 0, 0.15);
+  --shadow-darker: rgba(0, 0, 0, 0.2);
+
+  /* Header */
+  --header-bg: rgba(255, 255, 255, 0.95);
+  --header-shadow: var(--shadow-medium);
+}
+
