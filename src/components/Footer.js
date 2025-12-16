@@ -34,9 +34,11 @@ const Footer = () => {
               {footer?.sections?.socialMedia?.links?.map((link, index) => (
                 <a 
                   key={index}
-                  href="#" 
+                  href={`https://${link.name.toLowerCase()}.com`}
                   className="social-link" 
                   aria-label={link.ariaLabel}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {link.icon} {link.name}
                 </a>
