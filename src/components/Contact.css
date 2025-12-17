@@ -2,18 +2,25 @@
 .contact {
   background: var(--gradient-contact);
   color: var(--color-bg-white);
+  padding: clamp(3rem, 8vw, 5rem) 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  scroll-margin-top: 70px;
+}
+
+/* Tablet and up: Larger header */
+@media (min-width: 768px) {
+  .contact {
+    scroll-margin-top: 80px;
+  }
 }
 
 .contact-content {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  padding-top: clamp(2rem, 6vw, 3rem);
-  padding-bottom: clamp(2rem, 6vw, 3rem);
 }
 
 .contact-text {

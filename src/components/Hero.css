@@ -1,10 +1,19 @@
 /* Mobile-First: Start with mobile styles */
 .hero {
-  padding: clamp(3rem, 10vw, 7.5rem) 0 clamp(2rem, 6vw, 5rem);
+  padding-top: max(clamp(4rem, 10vw, 7.5rem), 90px);
+  padding-bottom: clamp(2rem, 6vw, 5rem);
   background: var(--gradient-hero);
   min-height: 100vh;
   display: flex;
   align-items: center;
+  scroll-margin-top: 70px;
+}
+
+/* Tablet and up: Larger header */
+@media (min-width: 768px) {
+  .hero {
+    scroll-margin-top: 80px;
+  }
 }
 
 .hero-container {

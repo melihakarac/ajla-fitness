@@ -5,6 +5,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  scroll-margin-top: 70px;
+}
+
+/* Tablet and up: Larger header */
+@media (min-width: 768px) {
+  .section {
+    scroll-margin-top: 80px;
+  }
 }
 
 .section-header {
