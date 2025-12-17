@@ -46,5 +46,21 @@
   /* Header */
   --header-bg: rgba(255, 255, 255, 0.95);
   --header-shadow: var(--shadow-medium);
-}
 
+  /* Breakpoints - Mobile First */
+  --bp-mobile: 480px;
+  --bp-tablet: 768px;
+  --bp-desktop: 1024px;
+  --bp-wide: 1200px;
+
+  /* Spacing Scale */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Touch Target Minimum */
+  --touch-target-min: 44px;
+}

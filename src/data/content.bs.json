@@ -5,6 +5,7 @@
       "home": "Početna",
       "about": "O meni",
       "programs": "Programi",
+      "results": "Rezultati",
       "testimonials": "Iskustva",
       "contact": "Kontakt"
     },
@@ -40,6 +41,12 @@
         "title": "Online trening",
         "description": "Pristupi premium programima treninga sa bilo koje lokacije. Prati video tutorijale i prati svoj napredak sa našom online platformom.",
         "linkText": "Saznaj više →"
+      },
+      {
+        "icon": "💊",
+        "title": "Besplatno savjetovanje o suplementima",
+        "description": "Dobij stručne savjete o suplementima od našeg certificiranog farmaceuta i doktora. Besplatne konsultacije da ti pomognu da izabereš prave suplemente za tvoje fitness ciljeve i zdravstvene potrebe.",
+        "linkText": "Saznaj više →"
       }
     ]
   },
@@ -51,6 +58,37 @@
     ],
     "ctaButton": "Pročitaj više",
     "imagePlaceholder": "Moja slika"
+  },
+  "results": {
+    "title": "Prije i poslije",
+    "subtitle": "Prave transformacije od pravih klijenata",
+    "labels": {
+      "before": "Prije",
+      "after": "Poslije"
+    },
+    "items": [
+      {
+        "name": "Sara Jovanović",
+        "result": "Izgubljeno 13 kg",
+        "timeframe": "6 mjeseci",
+        "beforeImage": "Prije fotografija",
+        "afterImage": "Poslije fotografija"
+      },
+      {
+        "name": "Emina Marić",
+        "result": "Stečena snaga i mišići",
+        "timeframe": "4 mjeseca",
+        "beforeImage": "Prije fotografija",
+        "afterImage": "Poslije fotografija"
+      },
+      {
+        "name": "Jasmina Čengić",
+        "result": "Poboljšan fitnes i samopouzdanje",
+        "timeframe": "5 mjeseci",
+        "beforeImage": "Prije fotografija",
+        "afterImage": "Poslije fotografija"
+      }
+    ]
   },
   "testimonials": {
     "title": "Priče o uspjehu",
@@ -106,6 +144,7 @@
           "home": "Početna",
           "about": "O meni",
           "programs": "Programi",
+          "results": "Rezultati",
           "testimonials": "Iskustva",
           "contact": "Kontakt"
         }

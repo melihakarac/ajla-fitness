@@ -21,9 +21,10 @@ const Footer = () => {
             <h4 className="footer-title">{footer?.sections?.quickLinks?.title}</h4>
             <ul className="footer-links">
               <li><a href={`#${SECTION_IDS.HOME}`}>{footer?.sections?.quickLinks?.links?.home}</a></li>
-              <li><a href={`#${SECTION_IDS.ABOUT}`}>{footer?.sections?.quickLinks?.links?.about}</a></li>
               <li><a href={`#${SECTION_IDS.PROGRAMS}`}>{footer?.sections?.quickLinks?.links?.programs}</a></li>
+              <li><a href={`#${SECTION_IDS.ABOUT}`}>{footer?.sections?.quickLinks?.links?.about}</a></li>
               <li><a href={`#${SECTION_IDS.TESTIMONIALS}`}>{footer?.sections?.quickLinks?.links?.testimonials}</a></li>
+              <li><a href={`#${SECTION_IDS.RESULTS}`}>{footer?.sections?.quickLinks?.links?.results}</a></li>
               <li><a href={`#${SECTION_IDS.CONTACT}`}>{footer?.sections?.quickLinks?.links?.contact}</a></li>
             </ul>
           </div>

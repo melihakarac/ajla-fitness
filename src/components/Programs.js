@@ -14,7 +14,7 @@ const Programs = () => {
   return (
     <Section id={SECTION_IDS.PROGRAMS} className="programs" title={programs?.title} subtitle={programs?.subtitle}>
       <Container>
-        <Grid className="programs-grid">
+        <Grid className="programs-grid" minWidth="450px">
           {programs?.items?.map((program, index) => (
             <Card key={index} className="program-card card-lift">
               <div className="program-icon">{program.icon}</div>

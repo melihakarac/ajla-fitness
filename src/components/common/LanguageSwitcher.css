@@ -72,6 +72,14 @@
   animation: slideDown 0.2s ease-out;
 }
 
+/* Mobile: Position dropdown below button, aligned to left */
+@media (max-width: 767px) {
+  .mobile-language-switcher .language-dropdown {
+    right: auto;
+    left: 0;
+  }
+}
+
 .language-option {
   display: block;
   width: 100%;

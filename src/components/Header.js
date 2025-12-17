@@ -38,10 +38,14 @@ const Header = () => {
 
           <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
             <li><a href={`#${SECTION_IDS.HOME}`} onClick={handleNavClick}>{header?.navLinks?.home}</a></li>
-            <li><a href={`#${SECTION_IDS.ABOUT}`} onClick={handleNavClick}>{header?.navLinks?.about}</a></li>
             <li><a href={`#${SECTION_IDS.PROGRAMS}`} onClick={handleNavClick}>{header?.navLinks?.programs}</a></li>
+            <li><a href={`#${SECTION_IDS.ABOUT}`} onClick={handleNavClick}>{header?.navLinks?.about}</a></li>
             <li><a href={`#${SECTION_IDS.TESTIMONIALS}`} onClick={handleNavClick}>{header?.navLinks?.testimonials}</a></li>
+            <li><a href={`#${SECTION_IDS.RESULTS}`} onClick={handleNavClick}>{header?.navLinks?.results}</a></li>
             <li><a href={`#${SECTION_IDS.CONTACT}`} onClick={handleNavClick}>{header?.navLinks?.contact}</a></li>
+            <li className="mobile-language-switcher">
+              <LanguageSwitcher />
+            </li>
           </ul>
 
           <div className="header-actions">

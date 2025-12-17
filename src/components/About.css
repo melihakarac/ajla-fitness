@@ -1,11 +1,16 @@
+/* Mobile-First: Start with mobile styles */
 .about {
   background: var(--color-bg-light);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl, 3rem);
   align-items: start;
 }
 
@@ -14,28 +19,29 @@
 }
 
 .about-bio {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 3vw, 1.1rem);
   line-height: 1.8;
   color: var(--color-text-secondary);
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-md, 1.5rem);
 }
 
 .about-image {
   animation: fadeInRight 0.8s ease-out;
-  padding: 2rem 0;
+  padding: var(--spacing-sm, 1rem) 0;
   display: flex;
   align-items: center;
+  order: -1;
 }
 
-@media (max-width: 968px) {
+/* Tablet: Side-by-side layout */
+@media (min-width: 768px) {
   .about-content {
-    grid-template-columns: 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl, 4rem);
   }
 
   .about-image {
-    order: -1;
-    padding: 1rem 0;
+    order: 0;
+    padding: var(--spacing-lg, 2rem) 0;
   }
 }
-

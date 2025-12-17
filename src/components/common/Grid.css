@@ -1,12 +1,14 @@
+/* Mobile-First: Start with mobile styles */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 300px), 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md, 1.5rem);
 }
 
-@media (max-width: 768px) {
+/* Tablet and up: Auto-fit columns */
+@media (min-width: 768px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 300px), 1fr));
+    gap: var(--spacing-lg, 2rem);
   }
 }
-

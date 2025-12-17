@@ -1,59 +1,48 @@
+/* Mobile-First: Start with mobile styles */
 .contact {
   background: var(--gradient-contact);
   color: var(--color-bg-white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-content {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: clamp(2rem, 6vw, 3rem);
+  padding-bottom: clamp(2rem, 6vw, 3rem);
 }
 
 .contact-text {
-  margin-bottom: 3rem;
+  margin-bottom: var(--spacing-xl, 3rem);
 }
 
 .contact .section-title {
   color: var(--color-bg-white);
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-sm, 1rem);
 }
 
 .contact-motivation {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   line-height: 1.8;
   opacity: 0.95;
 }
 
 .contact-form {
   background: var(--color-bg-white);
-  padding: 3rem;
+  padding: clamp(1.5rem, 5vw, 3rem);
   border-radius: 20px;
   box-shadow: 0 10px 40px var(--shadow-darker);
   text-align: left;
 }
 
-
 .btn-submit {
   width: 100%;
-  margin-top: 1rem;
-  padding: 1.2rem;
-  font-size: 1.1rem;
+  margin-top: var(--spacing-sm, 1rem);
+  padding: clamp(1rem, 3vw, 1.2rem);
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  min-height: var(--touch-target-min, 44px);
 }
-
-@media (max-width: 768px) {
-  .contact-form {
-    padding: 2rem;
-  }
-
-  .contact-content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .contact-motivation {
-    font-size: 1.1rem;
-  }
-}
-

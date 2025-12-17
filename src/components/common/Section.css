@@ -1,31 +1,32 @@
+/* Mobile-First: Start with mobile styles */
 .section {
-  padding: 80px 0;
+  padding: clamp(3rem, 8vw, 5rem) 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: var(--spacing-xl, 3rem);
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 6vw, 2.5rem);
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-sm, 1rem);
   color: var(--color-text-dark);
 }
 
 .section-subtitle {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
   color: var(--color-text-tertiary);
 }
 
-@media (max-width: 768px) {
-  .section {
-    padding: 60px 0;
-  }
-
-  .section-title {
-    font-size: 2rem;
+/* Tablet and up: Larger spacing */
+@media (min-width: 768px) {
+  .section-header {
+    margin-bottom: var(--spacing-xl, 3rem);
   }
 }
-

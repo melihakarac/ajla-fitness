@@ -1,0 +1,230 @@
+/* Mobile-First: Start with mobile styles */
+.results {
+  background: var(--color-bg-light);
+}
+
+.results-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-sm, 1rem) 0;
+}
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 0.5rem);
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.carousel-slide {
+  display: none;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.before-after-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-white);
+  border-radius: 20px;
+  padding: var(--spacing-md, 1rem);
+  box-shadow: 0 5px 20px var(--shadow-light);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.before-after-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow-dark);
+}
+
+.before-after-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-sm, 1rem);
+  margin-bottom: var(--spacing-sm, 1rem);
+}
+
+.before-after-image {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+}
+
+.image-label {
+  position: absolute;
+  top: var(--spacing-sm, 1rem);
+  left: var(--spacing-sm, 1rem);
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--color-bg-white);
+  padding: clamp(0.4rem, 1vw, 0.5rem) clamp(0.8rem, 2vw, 1rem);
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+  z-index: 2;
+  backdrop-filter: blur(10px);
+}
+
+.before-label {
+  background: rgba(220, 53, 69, 0.8);
+}
+
+.after-label {
+  background: rgba(40, 167, 69, 0.8);
+}
+
+.slide-info {
+  text-align: center;
+  padding-top: clamp(0.75rem, 2vw, 1rem);
+  border-top: 1px solid var(--color-border-lighter);
+}
+
+.slide-name {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: var(--spacing-xs, 0.5rem);
+}
+
+.slide-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.75rem, 2vw, 1rem);
+  flex-wrap: wrap;
+}
+
+.slide-result {
+  font-size: clamp(0.9rem, 2.5vw, 0.95rem);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.slide-timeframe {
+  font-size: clamp(0.8rem, 2vw, 0.85rem);
+  color: var(--color-text-tertiary);
+  font-style: italic;
+}
+
+.carousel-button {
+  background: var(--color-primary);
+  color: var(--color-bg-white);
+  border: none;
+  width: clamp(35px, 8vw, 50px);
+  height: clamp(35px, 8vw, 50px);
+  min-width: var(--touch-target-min, 44px);
+  min-height: var(--touch-target-min, 44px);
+  border-radius: 50%;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px var(--shadow-medium);
+}
+
+.carousel-button:hover {
+  background: var(--color-primary-dark);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px var(--shadow-darker);
+}
+
+.carousel-button:active {
+  transform: scale(0.95);
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: var(--spacing-lg, 2rem);
+  flex-wrap: wrap;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-border-light);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.indicator:hover {
+  background: var(--color-primary);
+  transform: scale(1.2);
+}
+
+.indicator.active {
+  background: var(--color-primary);
+  width: 20px;
+  border-radius: 6px;
+}
+
+/* Mobile: Very small indicators */
+@media (max-width: 767px) {
+  .indicator {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+  }
+
+  .indicator.active {
+    width: 16px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Tablet: Side-by-side images, larger buttons */
+@media (min-width: 768px) {
+  .results-carousel {
+    padding: var(--spacing-lg, 2rem) 0;
+  }
+
+  .carousel-wrapper {
+    gap: var(--spacing-sm, 1rem);
+  }
+
+  .before-after-card {
+    padding: var(--spacing-md, 1.5rem);
+  }
+
+  .before-after-images {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md, 1.5rem);
+  }
+
+}
+
+/* Desktop: Larger spacing */
+@media (min-width: 1024px) {
+  .before-after-card {
+    padding: var(--spacing-lg, 1.5rem);
+  }
+}

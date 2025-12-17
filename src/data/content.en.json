@@ -5,6 +5,7 @@
       "home": "Home",
       "about": "About",
       "programs": "Programs",
+      "results": "Results",
       "testimonials": "Testimonials",
       "contact": "Contact"
     },
@@ -40,6 +41,12 @@
         "title": "Online Workouts",
         "description": "Access premium workout programs from anywhere. Follow along with video tutorials and track your progress with our online platform.",
         "linkText": "Learn More →"
+      },
+      {
+        "icon": "💊",
+        "title": "Free Supplement Consultation",
+        "description": "Get expert advice on supplements from our certified pharmacist and doctor. Free consultations to help you choose the right supplements for your fitness goals and health needs.",
+        "linkText": "Learn More →"
       }
     ]
   },
@@ -51,6 +58,37 @@
     ],
     "ctaButton": "Read More",
     "imagePlaceholder": "About Image"
+  },
+  "results": {
+    "title": "Before & After",
+    "subtitle": "Real transformations from real clients",
+    "labels": {
+      "before": "Before",
+      "after": "After"
+    },
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "result": "Lost 30 lbs",
+        "timeframe": "6 months",
+        "beforeImage": "Before Photo",
+        "afterImage": "After Photo"
+      },
+      {
+        "name": "Emily Martinez",
+        "result": "Gained Strength & Muscle",
+        "timeframe": "4 months",
+        "beforeImage": "Before Photo",
+        "afterImage": "After Photo"
+      },
+      {
+        "name": "Jessica Chen",
+        "result": "Improved Fitness & Confidence",
+        "timeframe": "5 months",
+        "beforeImage": "Before Photo",
+        "afterImage": "After Photo"
+      }
+    ]
   },
   "testimonials": {
     "title": "Success Stories",
@@ -106,6 +144,7 @@
           "home": "Home",
           "about": "About",
           "programs": "Programs",
+          "results": "Results",
           "testimonials": "Testimonials",
           "contact": "Contact"
         }
