@@ -24,8 +24,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    // TODO: Implement form submission to backend/email service
+    // For now, just show success message
     alert(contact?.form?.successMessage);
     setFormData({ name: '', email: '', message: '' });
   };
